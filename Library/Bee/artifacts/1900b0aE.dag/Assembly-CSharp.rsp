@@ -361,10 +361,11 @@
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/Scripts/AIMovement.cs"
 "Assets/Scripts/CollectibleSpawner.cs"
-"Assets/Scripts/Collision.cs"
-"Assets/Scripts/GrowthPointHandler.cs"
+"Assets/Scripts/GrowthPointHandlerAI.cs"
+"Assets/Scripts/GrowthPointHandlerPlayer.cs"
 "Assets/Scripts/PlayerController.cs"
-"Assets/Scripts/PushHandler.cs"
+"Assets/Scripts/PushManagerAI.cs"
+"Assets/Scripts/PushManagerPlayer.cs"
 -langversion:9.0
 
 /deterministic

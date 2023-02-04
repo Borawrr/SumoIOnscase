@@ -10,7 +10,7 @@ public class CollectibleSpawner : MonoBehaviour
     
     void Update()
     {
-        // Collectible spawn'ı için oyun sınırları içerisinde rastgele bir vektör oluşturuyor.
+        
         Vector3 randomSpawnPosition = new Vector3(Random.Range(-17,17), 2, Random.Range(-17,17));
 
         if(timer < collectibleSpawnRate)

@@ -5,8 +5,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public Rigidbody rb;
-    public FixedJoystick joystick;
+    public FloatingJoystick joystick;
     public float movementSpeedPlayer;
+    public bool disabled = true;
     
 
 
@@ -14,7 +15,17 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         
-        rb.velocity = new Vector3(joystick.Horizontal * movementSpeedPlayer, rb.velocity.y, joystick.Vertical * movementSpeedPlayer);
+        PlayerMover();
 
     }
+
+    public void PlayerMover()
+    {
+        if(disabled == true)
+        {
+            rb.velocity = new Vector3(joystick.Horizontal * movementSpeedPlayer, rb.velocity.y, joystick.Vertical * movementSpeedPlayer);
+        }    
+        
+    }
+
 }
