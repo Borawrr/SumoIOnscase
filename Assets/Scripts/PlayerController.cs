@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody rb;
     public FixedJoystick joystick;
     public float movementSpeedPlayer;
+    
 
 
     
