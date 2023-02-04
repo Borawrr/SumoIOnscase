@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2777764899300363522}
   - component: {fileID: 2777764899300363521}
   - component: {fileID: 2777764899300363526}
+  - component: {fileID: -4049572569527421663}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: PlayerCharacter
@@ -161,3 +162,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushManagerAI: {fileID: 2777764899300363521}
+  score: 0
+  scoreText: {fileID: 0}
+--- !u!114 &-4049572569527421663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2777764899300363545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9477b618fd6251246bc90c74ffacebde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  growthPointHandlerPlayer: {fileID: 0}
+  player: {fileID: 0}
+  _scoreUp: 0

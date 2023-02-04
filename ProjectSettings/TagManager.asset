@@ -7,6 +7,7 @@ TagManager:
   - PlayerCharacter
   - AI
   - Collectible
+  - Destroyer
   layers:
   - Default
   - TransparentFX
